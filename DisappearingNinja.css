@@ -1,0 +1,43 @@
+#header{
+    width: 1000px;
+    height: 100px;
+    background-color: silver;
+    border: 3px solid black;
+    display: block;
+    text-align: center;
+}
+#NinjaBox{
+    width: 1000px;
+    height: 640px;
+    background-color: white;
+    border: 3px solid black;
+    display: block;
+    text-align: center;
+    font-size: 150%;
+}
+h3{
+    text-align: left;
+}
+#images{
+    display: block;
+    width: 900px;
+    height: 440px;
+    margin: 0px auto;
+}
+.NinjaPic{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+#Restore{
+    background-color: green;
+    width: 120px;
+    height: 40px;
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    color: white;
+    font-size: 120%;
+
+}

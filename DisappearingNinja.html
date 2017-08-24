@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Disappering Ninja</title>
+        <meta charset="UTF-8">
+        <link href="DisappearingNinja.css" rel="stylesheet">
+        <script type="text/javascript" src= "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript">
+
+
+            var string = "";
+            for(var i = 0; i < 8; i++){
+                string += "<img class='NinjaPic' src='ninja.png' alt='ninja_picture'>"
+            }
+            $(document).ready(function(){
+
+                $("#images").append(string);
+                $(".NinjaPic").click(function(){
+                    $(this).hide();
+                });
+                $("#Restore").click(function(){
+                        $(".NinjaPic").show();
+                });
+
+            });
+
+        </script>
+
+    </head>
+    <body>
+        <div id="header">
+            <h3>JQuery Qualifying Exam - Assignment 1</h3>
+        </div>
+        <div id="NinjaBox">
+            <h2>JQuery - Assignment 1</h2>
+            <div id="images"></div>
+            <button id="Restore">Restore</button>
+        </div>
+    
+    </body>
+</html>
